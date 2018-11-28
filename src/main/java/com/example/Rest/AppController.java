@@ -10,6 +10,6 @@ public class AppController {
 
 	@GetMapping("/done")
 	public String getMethod(){
-		return "Done!!!";
+		return "Well Done Mr. G!!!";
 	}
 }
