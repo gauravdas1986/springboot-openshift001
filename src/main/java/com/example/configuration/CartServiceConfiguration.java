@@ -10,12 +10,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class CartServiceConfiguration {
 
-    @Bean
+   /* @Bean
     public JacksonJsonProvider jsonProvider(ObjectMapper objectMapper) {
         JacksonJaxbJsonProvider provider = new JacksonJaxbJsonProvider();
         objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         provider.setMapper(objectMapper);
         return provider;
-    }
+    }*/
 
 }
