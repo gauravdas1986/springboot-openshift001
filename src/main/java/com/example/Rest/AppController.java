@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/app")
+@RequestMapping("/rest")
 public class AppController {
 
-	@GetMapping("/service")
+	@GetMapping("/done")
 	public String getMethod(){
-		return "This is the second app service";
+		return "Well Done Mr. GDas!!!";
 	}
 }
